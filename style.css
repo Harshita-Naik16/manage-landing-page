@@ -51,6 +51,7 @@ button {
 .container {
   padding: 3em 6em;
   max-width: 1440px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -242,12 +243,16 @@ nav .logo img {
 /* CTA at the end (Desktop)*/
 
 .cta {
+  background-color: var(--Bright-Red);
+}
+
+.cta-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--Bright-Red);
   padding: 5em 6em;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .cta .btn {
